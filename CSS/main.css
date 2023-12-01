@@ -1,0 +1,821 @@
+/* Custom Var */
+:root {
+    --main-ff: Montserrat;
+    --sec-ff: Poppins
+}
+
+/* Global style */
+body {
+    font-family: var(--main-ff);
+}
+
+.icon-collection a {
+    text-decoration: none;
+
+}
+
+.icon-box i {
+    text-decoration: none;
+    color: white;
+}
+
+.icon-box {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.374);
+    margin-left: 5px;
+
+}
+
+
+
+
+.ani::after {
+    content: ' |';
+    animation-name: typing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes typing {
+
+    1% {
+        content: '|';
+
+    }
+
+    3% {
+        content: '|';
+
+    }
+
+
+    4% {
+        content: 'L|';
+
+    }
+
+    5% {
+        content: 'La|';
+
+    }
+
+    6% {
+        content: 'Lar|';
+
+    }
+
+    7% {
+        content: 'Larr|';
+
+    }
+
+    8% {
+        content: 'Larry|';
+
+    }
+
+    9% {
+        content: 'Larry |';
+
+    }
+
+    10% {
+        content: 'Larry D|';
+
+    }
+
+    11% {
+        content: 'Larry Da|';
+
+    }
+
+    12% {
+        content: 'Larry Dan|';
+
+    }
+
+
+    13% {
+        content: 'Larry Dani|';
+
+    }
+
+    14% {
+        content: 'Larry Danie|';
+
+    }
+
+    15% {
+        content: 'Larry Daniel|';
+
+    }
+
+    16% {
+        content: 'Larry Daniels|';
+
+    }
+
+    17% {
+        content: 'Larry Daniels |';
+
+    }
+
+    21% {
+        content: 'Larry Daniels |';
+
+    }
+
+    22% {
+        content: 'Larry Daniels|';
+
+    }
+
+    23% {
+        content: 'Larry Daniel|';
+
+    }
+
+    24% {
+        content: 'Larry Danie|';
+
+    }
+
+    25% {
+        content: 'Larry Dani|';
+
+    }
+
+    26% {
+        content: 'Larry Dan|';
+
+    }
+
+    27% {
+        content: 'Larry Da|';
+
+    }
+
+    28% {
+        content: 'Larry D|';
+
+    }
+
+    29% {
+        content: 'Larry |';
+
+    }
+
+    30% {
+        content: 'Larry|';
+
+    }
+
+    31% {
+        content: 'Larr|';
+
+    }
+
+    32% {
+        content: 'Lar|';
+
+    }
+
+    33% {
+        content: 'La|';
+
+    }
+
+    34% {
+        content: 'L|';
+
+    }
+
+    35% {
+        content: '|';
+
+    }
+
+    40% {
+        content: '|';
+
+    }
+
+
+    41% {
+        content: 'D|';
+
+    }
+
+    42% {
+        content: 'De|';
+
+    }
+
+    43% {
+        content: 'Dev|';
+
+    }
+
+    44% {
+        content: 'Deve|';
+
+    }
+
+    45% {
+        content: 'Devel|';
+
+
+    }
+
+    46% {
+        content: 'Develo|';
+
+    }
+
+    47% {
+        content: 'Develop|';
+
+
+    }
+
+    48% {
+        content: 'Develope|';
+
+    }
+
+    49% {
+        content: 'Developer|';
+
+    }
+
+    50% {
+        content: 'Developer |';
+
+    }
+
+    57% {
+        content: 'Developer |';
+
+    }
+
+
+    58% {
+        content: 'Developer|';
+
+    }
+
+    59% {
+        content: 'Develope|';
+
+    }
+
+    60% {
+        content: 'Develop|';
+
+    }
+
+    61% {
+        content: 'Develo|';
+
+    }
+
+    62% {
+        content: 'Devel|';
+
+    }
+
+    63% {
+        content: 'Deve|';
+
+    }
+
+    64% {
+        content: 'Deve|';
+
+    }
+
+    65% {
+        content: 'Dev|';
+
+    }
+
+    66% {
+        content: 'De|';
+
+    }
+
+    67% {
+        content: 'D|';
+
+    }
+
+    68% {
+        content: '|';
+
+    }
+
+    71% {
+        content: '|';
+
+    }
+
+    72% {
+        content: 'D|';
+
+    }
+
+    73% {
+        content: 'De|';
+
+    }
+
+    74% {
+        content: 'Des|';
+
+    }
+
+    75% {
+        content: 'Desi|';
+
+    }
+
+    76% {
+        content: 'Desig|';
+
+    }
+
+    77% {
+        content: 'Design|';
+
+    }
+
+    78% {
+        content: 'Designe|';
+
+    }
+
+    79% {
+        content: 'Designer|';
+
+
+    }
+
+    80% {
+        content: 'Designer |';
+
+    }
+
+    86% {
+        content: 'Designer |';
+
+    }
+
+    87% {
+        content: 'Designer|';
+
+
+    }
+
+    88% {
+        content: 'Designe|';
+
+    }
+
+    89% {
+        content: 'Design|';
+
+
+    }
+
+    90% {
+        content: 'Desig|';
+
+    }
+
+    91% {
+        content: 'Desi|';
+
+
+    }
+
+    92% {
+        content: 'Des|';
+
+    }
+
+    93% {
+        content: 'De|';
+
+    }
+
+    94% {
+        content: 'D|';
+
+    }
+
+    95% {
+        content: '|';
+
+    }
+
+    100% {
+        content: '|';
+
+    }
+
+}
+
+header {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.269)), url(../imgs/imgs/bg.jpg);
+    background-position: top;
+    background-size: cover;
+
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+
+/* .navbar-nav .nav-item .active {
+    border-bottom: 2px solid white;
+    width: 100%;
+} */
+
+.elements .navbar-nav .nav-item .brdr {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0%;
+    background-color: white;
+    transition: all .5s;
+
+    transform: scale(0);
+    transform-origin: left;
+}
+
+.elements .navbar-nav .nav-item .active .brdr {
+
+    transform: scale(1);
+}
+
+
+
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: white;
+}
+
+.hero-img {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-img::after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -30px;
+    bottom: -10px;
+    background-image: url(../imgs/imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.progress {
+    margin-top: 30px;
+}
+
+.cv-btn {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transition-property: all;
+    transition-duration: .5s;
+
+}
+
+.cv-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.cm-btn {
+    color: black;
+    background-color: white;
+    transition-property: all;
+    transition-duration: .5s;
+
+}
+
+.cm-btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.sec-ff {
+    font-family: var(--sec-ff);
+}
+
+.Services {
+    background-color: #F7F7F7;
+}
+
+.ico-bo {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #F7F7F7;
+    transition: all .5s;
+}
+
+.ico-bo i {
+    font-size: 30px;
+    color: black;
+    transition: all .5s;
+}
+
+.one-card:hover .ico-bo i {
+    color: white;
+}
+
+.one-card:hover .ico-bo {
+    background-color: black;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+
+.nav-pills .nav-link .brdr {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0%;
+    background-color: black;
+    transition: all .5s;
+
+    transform: scale(0);
+    transform-origin: left;
+}
+
+.nav-pills .nav-link.active .brdr {
+
+    transform: scale(1);
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent;
+}
+
+.h-3 {
+    height: 3px;
+}
+
+.layer {
+    position: absolute;
+    top: 30px;
+    bottom: -10px;
+    right: 10px;
+    left: 10px;
+    opacity: 0;
+    background-color: rgb(250, 250, 250);
+    transition: all .5s;
+
+}
+
+.layer:hover {
+    opacity: 1;
+    top: 10px;
+    bottom: 10px;
+
+}
+
+.layer-icon .icon-resize a {
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #000000;
+    text-decoration: none;
+    transform: translateY(50%);
+    transition: all .5s;
+}
+
+.layer-icon .icon-resize a:hover {
+    background-color: white;
+    color: #000000;
+    border: 1px solid black;
+
+}
+
+.big-layer:hover .layer-icon .icon-resize a {
+    transform: translateY(0%);
+}
+
+.big-layer .layer-txt {
+    transform: translateY(100%);
+    transition: all .5s;
+}
+
+.big-layer:hover .big-layer .layer-txt {
+    transform: translateY(-100%);
+}
+
+
+.layer-icon .icon-resize a i {
+    font-size: 10px;
+}
+
+.dots::after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-image: url(../imgs/imgs/dots.png);
+    background-repeat: repeat;
+
+}
+
+.Testimonials {
+    background-color: #F7F7F7;
+}
+
+.carousel-inner .carousel-item img {
+    width: 100;
+}
+
+.slider-img {
+    width: 90px;
+}
+
+.carousel-indicators [data-bs-target] {
+    text-indent: 0px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(89, 95, 95);
+    border-radius: 100%;
+}
+
+.Team {
+    background-color: #F7F7F7;
+}
+
+.card-ff {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.card-body {
+    background-color: #5B5B5B;
+}
+
+.secc-layer {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    background-color: #ffffff;
+    transition: all .5s;
+    transform: rotateY(-180deg) scale(.5);
+    opacity: 0;
+}
+
+.black-back {
+    background-color: #000000;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.card:hover .secc-layer {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.826);
+}
+
+.phoo img {
+    transform: scale(1);
+    transition: all .5s;
+}
+
+.phoo:hover img {
+    transform: scale(1.15);
+}
+
+.dark-back {
+    background-color: #e8e8e8;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.dark-back i {
+    color: #000000;
+    transition: all .5s;
+    font-size: 20px;
+
+
+}
+
+.contacts .special-hover:hover .dark-back {
+    background-color: #000000;
+
+
+}
+
+.contacts .special-hover:hover .dark-back i {
+    color: white;
+}
+
+.input-group>.form-control,
+.input-group>.form-floating,
+.input-group>.form-select {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+
+}
+
+.form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
+}
+
+
+.texx-area {
+    background-color: #f4f4f4;
+    border: 0px;
+}
+
+.texx-area:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
+    border: 0px;
+}
+
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.copy {
+    font-size: 14px;
+    color: rgb(116, 129, 130);
+}
+
+.card .icon-box a:hover .black-back {
+
+    background-color: #ffffff;
+
+}
+
+.icon-boxx i {
+    text-decoration: none;
+    color: white;
+    transition: all .5s;
+}
+
+.icon-boxx {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 5px;
+    transition: all .5s;
+
+}
+
+.icon-boxx:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.icon-boxx:hover i {
+    color: rgb(0, 0, 0);
+}
